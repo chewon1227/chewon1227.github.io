@@ -2,7 +2,7 @@
 layout: post
 title: Colab으로 프롬프팅 Prompting 하기 
 subtitle: Colab, HuggingFace를 이용해서 llama base prompting을 해보자 
-categories: Colab
+categories: colab
 tags: [colab, nlp] 
 ---
 

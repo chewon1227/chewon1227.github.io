@@ -1,7 +1,8 @@
 ---
 layout: post
-title: [RNN] Recurrent neural network based language model (2010)
-subtitle: 
+title: RNN-Recurrent neural network based language model (2010)
+subtitle: 논문을 리뷰한다. 
+use_math : true
 categories: Paper Review
 tags: [RNN, nlp, paper]
 ---

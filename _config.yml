@@ -157,8 +157,8 @@ yat:
 # Page default value
 # defaults:
 #   home:
-#     heading: "Your awesome heading"
-#     subheading: "Your awesome subheading"
+#     heading: "Chasing Curiousity"
+#     subheading: "Psychology, Data Science, and AI"
 #     banner: "Your image url"
 
 # Banner default settings
@@ -189,7 +189,7 @@ yat:
 
 # Gitment comments
 # gitment:
-#   username: "Your GitHub username"
+#   username: "chaeonii"
 #   repo: "The repo to store comments"
 #   client_id: "Your client ID"
 #   client_secret: "Your client secret"

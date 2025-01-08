@@ -1,63 +1,129 @@
 ---
 layout: post
-title: TensorFlow를 이용한 Deep Learning 03
-subtitle: Colab, TensorFlow를 이용해서 Deep Learning의 기초를 구현해보자 
+title: TensorFlow를 이용한 Deep Learning 04
+subtitle: Colab, TensorFlow를 이용해서 multi-variable linear regression을 해보자. 
 categories: DL
 tags: [colab, dl]
 ---
 
 
-TensorFlow로 구현한 Linear Regression의 cost를 최소화하는 알고리즘을 구현해보자. 
+이제 multi-variable linear regression을 해보자. 말 그대로, 변수가 x 하나만 있는게 아니라 여러 개 있는 형태이다. 조금 더 현실과 가까워졌다고 생각하면 좋을 것 같다. 
 
 필요한 패키지들을 설치해주고 ,, 임포트해온다 
 
 ```python
-!pip install -U pip
-!pip install -U matplotlib
-
 import tensorflow as tf
-import matplotlib.pyplot as plt
 import numpy as np
 ```
 
+배열 형태로 x 여러 개에 대해 y 1개가 나오는 multi-variable 형태를 가져온다. 
+
 ```python
-x_train = [1, 2, 3, 4]
-y_train = [0, -1, -2, -3]
+x_data = np.array([[73., 80., 75.],
+          [93., 88., 93.],
+          [89., 91., 90.],
+          [96., 98., 100.],
+          [73., 66., 70.]])
+y_data = np.array([[152.],
+          [185.],
+          [180.],
+          [196.],
+          [142.]])
 
 tf.model = tf.keras.Sequential()
-tf.model.add(tf.keras.layers.Dense(units=1, input_dim=1))
-sgd = tf.keras.optimizers.SGD(learning_rate=0.1)
-tf.model.compile(loss='mse', optimizer=sgd)
+
+tf.model.add(tf.keras.layers.Dense(units=1, input_dim=3))
+tf.model.add(tf.keras.layers.Activation('linear'))
+
+tf.model.compile(loss='mse', optimizer=tf.keras.optimizers.SGD(learning_rate=1e-5))
 tf.model.summary()
 ```
 
-지난번처럼 데이터를 가장 기본적으로 설정을 해준 뒤, `tf.keras.Sequential()` 로 모델을 만들어준다. 
+`tf.keras.Sequential()` 로 모델을 만들어준다. 
 
 ```python
-history = tf.model.fit(x_train, y_train, epochs=100)
+history = tf.model.fit(x_data, y_data, epochs=100)
 ```
 
-`tf.model.fit`을 통해 모델을 훈련한다. x_train, y_train이 입력/출력 데이터이고, epochs=100 즉 전체 데이터를 100번 반복학습한다. `history`에는 학습 과정에서의 loss가 저장된다. 
+`tf.model.fit`을 통해 모델을 훈련한다.
+
+•••
+
+Epoch 95/100
+
+**1/1**
+
+━━━━━━━━━━━━━━━━━━━━
+
+**0s**
+
+45ms/step - loss: 9.0829
+Epoch 96/100
+
+**1/1**
+
+━━━━━━━━━━━━━━━━━━━━
+
+**0s**
+
+62ms/step - loss: 9.0787
+Epoch 97/100
+
+**1/1**
+
+━━━━━━━━━━━━━━━━━━━━
+
+**0s**
+
+56ms/step - loss: 9.0744
+Epoch 98/100
+
+**1/1**
+
+━━━━━━━━━━━━━━━━━━━━
+
+**0s**
+
+47ms/step - loss: 9.0702
+Epoch 99/100
+
+**1/1**
+
+━━━━━━━━━━━━━━━━━━━━
+
+**0s**
+
+56ms/step - loss: 9.0659
+Epoch 100/100
+
+**1/1**
+
+━━━━━━━━━━━━━━━━━━━━
+
+**0s**
+
+50ms/step - loss: 9.0617
+
+ 
 
 ```python
-y_predict = tf.model.predict(np.array([5, 4]))
+y_predict = tf.model.predict(np.array([[72., 93., 90.]]))
 print(y_predict)
 ```
 
-학습된 모델을 통해 새로운 데이터 (입력값 [5,4]) 에 대한 예측값을 계산하도록 한다. 
+**1/1**
 
-그리고 이제 loss의 패턴을 보려고 한다 
+━━━━━━━━━━━━━━━━━━━━
 
-```python
-plt.plot(history.history['loss'])
-plt.title('Model loss')
-plt.ylabel('Loss')
-plt.xlabel('Epoch')
-plt.legend(['Train', 'Test'], loc='upper left')
-plt.show()
-```
+**0s**
 
-epoch가 커질수록 loss가 줄어드는 형태를 확인할 수 있다.
+37ms/step
+[[161.5736]]
+
+결과가 잘 도출되었다.
 
 
-[참고 유튜브 - hunkim](https://www.youtube.com/watch?v=Y0EF9VqRuEA&list=PLlMkM4tgfjnLSOjrEJN31gZATbcj_MpUm&index=8)
+
+
+
+[참고 유튜브 - hunkim](https://www.youtube.com/watch?v=fZUV3xjoZSM)

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[Attention] Neural Machine Translation by Jointly Learning to Align and Translate (2015)"
-subtitle: 논문을 리뷰한다. 
+subtitle: 입력 각 부분이 출력에 얼마나 중요한지 계산하여 '집중'할 수 있도록 하는 Attention
 use_math : true
 categories: Paper
 tags: [nlp, paper]

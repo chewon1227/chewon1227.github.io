@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[RNN] Recurrent neural network based language model (2010)"
-subtitle: 논문을 리뷰한다. 
+subtitle: 이전 출력을 현재 입력으로 사용하는 순환 구조, RNN 
 use_math : true
 categories: Paper
 tags: [nlp, paper]

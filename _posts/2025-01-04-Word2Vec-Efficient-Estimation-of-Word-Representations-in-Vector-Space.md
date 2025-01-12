@@ -2,7 +2,7 @@
 layout: post
 title: "[Word2Vec] Efficient Estimation of Word Representations in
 Vector Space (2013)"
-subtitle: 논문을 리뷰한다.
+subtitle: 벡터 공간에서 의미적으로 유사한 단어들이 가깝게 위치하도록 학습하는, Word2Vec
 use_math : true
 categories: Paper
 tags: [nlp, paper]

@@ -16,7 +16,8 @@ plugins:
 
 nav:
   - Home: index.md
-  - Category:
-      - NLP: _pages/NLP.md
-      - DL: _pages/DL.md
-      - Paper: _pages/Paper.md
+  - Posts:
+      - NLP: _pages/posts/nlp.md
+      - Paper: _pages/posts/paper.md
+
+heading_anchors: true

@@ -13,6 +13,8 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap   
   - jekyll-include-cache 
+  - jekyll-default-layout
+
 
 nav:
   - Home: index.md

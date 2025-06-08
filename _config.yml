@@ -1,14 +1,15 @@
 title: Rachel Docs 
 description: chasing questions - psychology and ai 
 
-theme: just-the-docs
-plugins:
-  - jekyll-seo-tag
-
 color_scheme: light
 search_enabled: true 
 
-url: https://just-the-docs.github.io
+url: https://chewon1227.github.io
 
 aux_links:
   Template Repository: https://github.com/just-the-docs/just-the-docs-template
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap   
+  - jekyll-include-cache 

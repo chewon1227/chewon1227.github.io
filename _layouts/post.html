@@ -3,3 +3,24 @@ layout: default
 ---
 
 {{ content }}
+
+
+<hr />
+<h3>🔗 Related Posts in {{ page.categories[0] }}</h3>
+<ul>
+  {% assign current = page.url %}
+  {% assign cat = page.categories[0] %}
+  {% assign posts_in_cat = site.categories[cat] | where_exp: "post", "post.url != current" %}
+  {% for post in posts_in_cat limit:5 %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date: "%Y-%m-%d" }})</li>
+  {% endfor %}
+</ul>
+
+<nav class="post-nav">
+    {% if page.previous %}
+      <a class="prev" href="{{ page.previous.url }}">← {{ page.previous.title }}</a>
+    {% endif %}
+    {% if page.next %}
+      <a class="next" href="{{ page.next.url }}">{{ page.next.title }} →</a>
+    {% endif %}
+  </nav>

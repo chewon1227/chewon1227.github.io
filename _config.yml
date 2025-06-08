@@ -13,3 +13,10 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap   
   - jekyll-include-cache 
+
+nav:
+  - Home: index.md
+  - Category:
+      - NLP: _pages/NLP.md
+      - DL: _pages/DL.md
+      - Paper: _pages/Paper.md

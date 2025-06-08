@@ -2,15 +2,12 @@
 layout: post
 title: Colab으로 파인튜닝 Fine-Tuning 하기 
 subtitle: Colab, HuggingFace를 이용해서 llama base prompting을 해보자 
-categories: colab
-tags: [colab, nlp]
+categories: NLP
 ---
 
 이 글은 연세대학교 AIC3110 강의를 참고하였으며, 허가 하에 작성되었습니다. 
 
 프롬프팅에 이어 파인튜닝을 해보려 한다 ! 
-
-
 
 
 

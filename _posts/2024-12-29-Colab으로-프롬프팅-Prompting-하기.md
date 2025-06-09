@@ -5,8 +5,6 @@ subtitle: Colab, HuggingFace를 이용해서 llama base prompting을 해보자
 categories: NLP
 ---
 
-이 글은 연세대학교 AIC3110 강의를 참고하였으며, 허가 하에 작성되었습니다. 
-
 
 
 ## 1. 기본 작업
@@ -28,7 +26,7 @@ from groq import Groq
 ```
 
 
-
+---
 
 
 ## 2. 모델을 가져와보자
@@ -150,7 +148,7 @@ generate_response("Tell me the capital of South Korea.")
 모델을 바꿔서 `llama-3.2-1b-preview` , `llama3-70b-8192` 로 실험해봐도 아예 동일한 답변을 내놓았다. 
 
 
-
+---
 
 
 ## 3. 프롬프팅을 ‘잘’ 해보자

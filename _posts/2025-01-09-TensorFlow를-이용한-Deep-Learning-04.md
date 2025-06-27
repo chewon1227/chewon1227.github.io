@@ -1,6 +1,7 @@
 ---
 layout: post
-title: TensorFlow를 이용한 Deep Learning 04
+title: "TensorFlow를 이용한 Deep Learning 04"
+permalink: /dl/tensorflow-04/
 subtitle: Colab, TensorFlow를 이용해서 multi-variable linear regression을 해보자. 
 categories: DL
 ---

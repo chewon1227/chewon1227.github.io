@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Colab으로 파인튜닝 Fine-Tuning 하기 
+title: "Colab으로 파인튜닝(Fine-Tuning)하기"
+permalink: /nlp/colab-finetune/
 subtitle: Colab, HuggingFace를 이용해서 llama base prompting을 해보자 
 categories: NLP
 ---
@@ -293,11 +294,11 @@ for dialogue in train_dataset:
 refined_dataset[0]
 ```
 
-refined_dataset을 보면 이제 ‘dialogue_history’와 ‘response’로 나뉘어 딕셔너리 형태로 저장되는 것을 볼 수 있다. 이런 식으로 .. 
+refined_dataset을 보면 이제 'dialogue_history'와 'response'로 나뉘어 딕셔너리 형태로 저장되는 것을 볼 수 있다. 이런 식으로 .. 
 
 ```
 {'dialogue_history': "Counselor: Good afternoon, Brooke. Thank you for joining me today. Can you tell me a bit about what brings you to counseling?Client: Hi. I've been really anxious about going back to the animal shelter where I volunteer. I feel like the animals will hate me because they didn't remember me the last time I visited. It's been really tough.",
- 'response': "Counselor: I'm sorry to hear that you've been feeling this way. It sounds like this is something that’s been troubling you for a while. Can you tell me more about what happened during your last visit to the shelter?"}
+ 'response': "Counselor: I'm sorry to hear that you've been feeling this way. It sounds like this is something that's been troubling you for a while. Can you tell me more about what happened during your last visit to the shelter?"}
 ```
 
 ```python

@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Colab으로 프롬프팅 Prompting 하기 
+title: "Colab으로 프롬프팅(Prompting)하기"
+permalink: /nlp/colab-prompting/
 subtitle: Colab, HuggingFace를 이용해서 llama base prompting을 해보자 
 categories: NLP
 ---
@@ -47,7 +48,7 @@ model_name = "llama3-70b-8192"
 
 ```
 
-`chat.completions.create` 를 통해 메세지 기반으로 모델 응답을 생성하게 해준다. message는 리스트로 작성이 되며, 지금은 사용자 역할의 메시지를 ‘Explain how to use ChatGPT’ 로 설정해두었다. `model=` 을 통해 모델명도 지정했다. 사용할 수 있는 모델 리스트는 다양한데, 그 중 70b 모델을 가져왔다. 모델 크기에 따른 답변 생성 품질도 비교해볼 예정이다 
+`chat.completions.create` 를 통해 메세지 기반으로 모델 응답을 생성하게 해준다. message는 리스트로 작성이 되며, 지금은 사용자 역할의 메시지를 'Explain how to use ChatGPT' 로 설정해두었다. `model=` 을 통해 모델명도 지정했다. 사용할 수 있는 모델 리스트는 다양한데, 그 중 70b 모델을 가져왔다. 모델 크기에 따른 답변 생성 품질도 비교해볼 예정이다 
 
 ```python
 response = client.chat.completions.create(
@@ -151,9 +152,9 @@ generate_response("Tell me the capital of South Korea.")
 ---
 
 
-## 3. 프롬프팅을 ‘잘’ 해보자
+## 3. 프롬프팅을 '잘' 해보자
 
-그렇다면 이제 우리에게 필요한 것은 ‘좋은 프롬포트’이다. 
+그렇다면 이제 우리에게 필요한 것은 '좋은 프롬포트'이다. 
 
 모델 프롬프팅을 잘한다는 것은 무엇일까?
 
@@ -323,4 +324,4 @@ generate_response(prompt)
 Let's break down the problem and come up with a plan to solve it.\n\nProblem: Add up the odd numbers in the group: 15, 32, 5, 13, 82, 7, 1.\n\nPlan:\n\n1. Identify the odd numbers in the group.\n2. Add up the odd numbers.\n\nLet's start by identifying the odd numbers in the group:\n\n* 15\n* 5\n* 13\n* 7\n* 1\n\nThese are the odd numbers in the group. Now, let's add them up:\n\n1. Add 15 + 5 = 20\n2. Add 20 + 13 = 33\n3. Add 33 + 7 = 40\n4. Add 40 + 1 = 41\n\nThe sum of the odd numbers is 41.
 ```
 
-와우 !! 확실히 훨씬 논리적인 구조로 답을 도출하고 있는 것을 볼 수 있다. 좀 더 ‘데이터를 풀었다’기 보다 ‘태스크를 풀었다’ 에 가까워진 것 같다
+와우 !! 확실히 훨씬 논리적인 구조로 답을 도출하고 있는 것을 볼 수 있다. 좀 더 '데이터를 풀었다'기 보다 '태스크를 풀었다' 에 가까워진 것 같다

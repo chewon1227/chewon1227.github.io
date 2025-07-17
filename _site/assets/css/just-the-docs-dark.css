@@ -7609,4 +7609,22 @@ div.opaque {
   background-color: #27262b;
 }
 
+.callout {
+  border-left: 4px solid #007acc;
+  background: #f0f8ff;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 0.5rem;
+}
+
+.callout.warning {
+  border-left-color: #ff8c00;
+  background: #fff8e1;
+}
+
+.callout.success {
+  border-left-color: #28a745;
+  background: #e6ffed;
+}
+
 /*# sourceMappingURL=just-the-docs-dark.css.map */

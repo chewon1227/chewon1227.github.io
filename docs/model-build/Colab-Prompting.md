@@ -205,7 +205,7 @@ Classify the text into neutral, negative or positive.
 This is awesome! // Negative
 This is bad! // Positive
 Wow that movie was rad! // Positive
-What a horrible show! // {{Your Answer}}
+What a horrible show! //
 '''
 generate_response(few_shot_prompt)
 ```

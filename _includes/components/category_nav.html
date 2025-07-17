@@ -1,0 +1,30 @@
+{%- comment -%}
+  카테고리별 포스트 자동 분류 사이드바
+{%- endcomment -%}
+
+<nav aria-label="Categories" id="category-nav" class="site-nav">
+  {% assign categories = site.posts | map: "categories" | uniq | sort %}
+  
+  {% for category in categories %}
+    {% assign category_posts = site.posts | where: "categories", category | sort: "date" | reverse %}
+    {% if category_posts.size > 0 %}
+      <ul class="nav-list nav-category-list">
+        <li class="nav-list-item">
+          <button class="nav-list-expander btn-reset" aria-label="Toggle category {{ category }}" aria-pressed="false">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><use xlink:href="#svg-arrow-right"></use></svg>
+          </button>
+          <div class="nav-category">{{ category }}</div>
+          <ul class="nav-list">
+            {% for post in category_posts %}
+              <li class="nav-list-item">
+                <a href="{{ post.url | relative_url }}" class="nav-list-link">
+                  {{ post.title }}
+                </a>
+              </li>
+            {% endfor %}
+          </ul>
+        </li>
+      </ul>
+    {% endif %}
+  {% endfor %}
+</nav> 

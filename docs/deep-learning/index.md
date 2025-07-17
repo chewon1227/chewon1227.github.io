@@ -1,6 +1,6 @@
 ---
-title: nlp
-nav_order: 4
+title: deep-learning
+nav_order: 2
 ---
 
 # Utilities

@@ -16,3 +16,6 @@ gem "html-proofer", "~> 5.0", group: :development
 gem "jekyll-seo-tag", group: :jekyll_plugins
 
 gem "jekyll-default-layout"
+
+gem "just-the-docs", group: :jekyll_plugins
+

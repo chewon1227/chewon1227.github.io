@@ -1,8 +1,9 @@
-title: Rachel Docs 
-description: chasing questions - psychology and ai 
+title: Rachel Blog
+description: chasing questions - psychology and ai
+theme: "just-the-docs"
 
 color_scheme: light
-search_enabled: true 
+search_enabled: true
 
 url: https://chewon1227.github.io
 
@@ -11,15 +12,8 @@ aux_links:
 
 plugins:
   - jekyll-seo-tag
-  - jekyll-sitemap   
-  - jekyll-include-cache 
-  - jekyll-default-layout
+  - jekyll-sitemap
+  - jekyll-include-cache
 
-
-nav:
-  - Home: index.md
-  - Posts:
-      - NLP: _pages/posts/nlp.md
-      - Paper: _pages/posts/paper.md
-
+future: true
 heading_anchors: true

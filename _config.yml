@@ -10,3 +10,10 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-include-cache
+
+nav:
+  - Home: index.md
+  - DL: docs/dl/index.md
+  - NLP: docs/nlp/index.md
+  - EDA: docs/eda/index.md
+  - PAPER: docs/paper/index.md

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[Standalone DL] #2 lecture - ML Basic"
-permalink: /dl/standalone-01
+permalink: /dl/standalone-01/
 subtitle: ML Basic 
 use_math : true
 parent: deep-learning

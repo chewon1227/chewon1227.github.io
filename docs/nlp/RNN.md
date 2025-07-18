@@ -2,6 +2,7 @@
 layout: post
 title: "[RNN] Recurrent neural network based language model (2010)"
 subtitle: 이전 출력을 현재 입력으로 사용하는 순환 구조, RNN 
+permalink: /nlp/rnn/
 use_math : true
 parents: nlp
 ---

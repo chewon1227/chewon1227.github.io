@@ -1,5 +1,7 @@
 source "https://rubygems.org"
 
+gem "jekyll-seo-tag"
+
 gem "base64"
 gem "csv"
 

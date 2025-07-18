@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Colab으로 프롬프팅(Prompting)하기"
-permalink: /nlp/colab-prompting/
+permalink: /build/colab-prompting/
 subtitle: Colab, HuggingFace를 이용해서 llama base prompting을 해보자 
 parent: model-build
 ---

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "[GPT-1] Improving Language Understanding by Generative Pre-Training(2018)"
 permalink: /nlp/gpt1/
 subtitle: using unlabeled data 

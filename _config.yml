@@ -11,9 +11,11 @@ plugins:
   - jekyll-sitemap
   - jekyll-include-cache
 
-nav:
+nav: # parent name 
   - Home: index.md
-  - DL: docs/dl/index.md
+  - deep-learning: docs/dl/index.md
   - NLP: docs/nlp/index.md
-  - EDA: docs/eda/index.md
-  - PAPER: docs/paper/index.md
+  - model-build: docs/eda/index.md
+
+include:
+  - docs

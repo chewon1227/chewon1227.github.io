@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "일반 API와 Batch API 사용하기" 
 permalink: /nlp/batchapi/
 subtitle: 언제 어떤 상황에서 무슨 방법을 쓰는 것이 효율적일까? 

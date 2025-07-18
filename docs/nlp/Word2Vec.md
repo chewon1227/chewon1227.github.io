@@ -1,11 +1,11 @@
 ---
-layout: post
+layout: default
 title: "[Word2Vec] Efficient Estimation of Word Representations in
 Vector Space (2013)"
 subtitle: 벡터 공간에서 의미적으로 유사한 단어들이 가깝게 위치하도록 학습하는 Word2Vec
 permalink: /nlp/word2vec/
 use_math : true
-parents: nlp
+parent: nlp
 ---
 
 

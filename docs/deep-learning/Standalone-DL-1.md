@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "[Standalone DL] #2 lecture - ML Basic"
 permalink: /dl/standalone-01/
 subtitle: ML Basic 

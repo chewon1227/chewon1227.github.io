@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Colab으로 파인튜닝(Fine-Tuning)하기"
-permalink: /nlp/colab-finetune/
+permalink: /build/colab-finetune/
 subtitle: Colab, HuggingFace를 이용해서 llama base prompting을 해보자 
 parent: model-build
 ---

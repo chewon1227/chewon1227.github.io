@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "[ViT] An Image is Worth 16x16 Words : Transformers for Image Recognition at Scale (2021)"
 permalink: /nlp/ViT/
 subtitle: Transformer in Image Recognition 

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "[ReAct] Synergizing Reasoning and Acting in Language Models"
 permalink: /nlp/react/
 subtitle: 추론과 생각의 시너지를 보는 프롬프팅 기반 ReAct

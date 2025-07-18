@@ -1,10 +1,10 @@
 ---
-layout: post
+layout: default
 title: "[Seq2Seq] Sequence to Sequence Learning with Neural Networks"
 permalink: /nlp/seq2seq/
 subtitle: 서로 다른 길이의 입력, 출력을 처리하는 Seq2Seq
 use_math : true
-parents: nlp
+parent: nlp
 ---
 
 

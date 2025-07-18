@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "[Standalone DL] #3 lecture - Linear Regression"
-permalink: /dl/standalone-01/
+permalink: /dl/standalone-02/
 subtitle: ML Basic 
 use_math : true
 parent: deep-learning

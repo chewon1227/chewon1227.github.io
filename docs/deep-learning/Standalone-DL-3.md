@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "[Standalone DL] #4 Lab - Linear Regression Practice"
-permalink: /dl/standalone-03/
+title: "[Standalone DL] #5 Lab - Regression with Pytorch"
+permalink: /dl/standalone-04/
 subtitle: ML Basic 
 use_math : true
 parent: deep-learning

@@ -95,21 +95,26 @@ plt.show()
 
 2차원짜리 input에 W를 곱하고 bias를 더해서 1차원으로 변경해주는 작업 진행 ! 
 
-**Linear Model**   
-$$
-
-H = \ XW + b \ \ ( W \in \mathcal{R}^{2 \times 1}, b \in \mathcal{R}^{1}, H \in \mathcal{R}^{N \times 1})
+**Linear Model**
 
 $$
-
-**MLP Model**
+H = XW + b \quad \left( W \in \mathbb{R}^{2 \times 1},\ b \in \mathbb{R}^{1},\ H \in \mathbb{R}^{N \times 1} \right)
 $$
 
-Let \ relu(X) = \ max(X, 0)
+Let \( \text{ReLU}(X) = \max(X, 0) \)
 
-h = \ relu(X W_1 + b_1) \ \  ( W_1 \in \mathcal{R}^{2 \times 200}, b_1 \in \mathcal{R}^{200}, h \in \mathcal{R}^{N \times 200})
-H = \ h W_2 + b_2  \ \  ( W_2 \in \mathcal{R}^{200 \times 1}, b_2 \in \mathcal{R}^{1}, H \in \mathcal{R}^{N  \times 1})
+$$
+h = \text{ReLU}(X W_1 + b_1) \quad \left( W_1 \in \mathbb{R}^{2 \times 200},\ b_1 \in \mathbb{R}^{200},\ h \in \mathbb{R}^{N \times 200} \right)
+$$
 
+$$
+H = h W_2 + b_2 \quad \left( W_2 \in \mathbb{R}^{200 \times 1},\ b_2 \in \mathbb{R}^{1},\ H \in \mathbb{R}^{N \times 1} \right)
+$$
+
+**Mean Absolute Error**
+
+$$
+\text{MAE}(Y_{\text{true}}, Y_{\text{predict}}) = \sum_{i} \left| y_{\text{true}}^{(i)} - y_{\text{predict}}^{(i)} \right|
 $$
 
 ```python

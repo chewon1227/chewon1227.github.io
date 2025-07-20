@@ -1,5 +1,6 @@
 ---
 title: Tensorflow Study
+parent: deep-learning
 nav_order: 2
 ---
 

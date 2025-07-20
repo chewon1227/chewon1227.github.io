@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "TensorFlow를 이용한 Deep Learning 01"
-permalink: /dl/tensorflow-01/
+permalink: /dl/tf/tensorflow-01/
 subtitle: Colab, TensorFlow를 이용해서 Deep Learning의 기초를 구현해보자 
 parent: deep-learning
 ---

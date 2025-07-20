@@ -1,13 +1,13 @@
 ---
 layout: default
-title: "[Standalone DL] #2 lecture - ML Basic"
-permalink: /dl/standalone-01/
+title: "ML Basic"
+permalink: /dl/sa/standalone-01/
 subtitle: ML Basic 
 use_math : true
 parent: deep-learning
 ---
 
-# What is ML?
+# [Standalone DL] #2 lecture - ML Basic
 
 ## Definition
 
@@ -18,9 +18,9 @@ parent: deep-learning
 
 <br />
 
-# Categories
+## Categories
 
-## ML and others
+### ML and others
 <img width="702" height="298" alt="Image" src="https://github.com/user-attachments/assets/05d66f84-8ab8-4c3d-b5e3-c96c0d1d5cdb" />
 - 학습법 : supervised, unsupervised, reinforcement learning
     - `unsupervised learning`

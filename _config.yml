@@ -14,6 +14,8 @@ plugins:
 nav: # parent name 
   - Home: index.md
   - deep-learning: docs/dl/index.md
+  - Tensorflow: docs/dl/tf/index.md
+  - Standalone: docs/dl/sa/index.md
   - NLP: docs/nlp/index.md
   - model-build: docs/eda/index.md
 

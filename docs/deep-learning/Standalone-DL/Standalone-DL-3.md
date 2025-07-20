@@ -1,12 +1,13 @@
 ---
 layout: default
-title: "[Standalone DL] #5 Lab - Regression with Pytorch"
-permalink: /dl/standalone-04/
+title: "Pytorch Regression"
+permalink: /dl/sa/standalone-03/
 subtitle: ML Basic 
 use_math : true
 parent: deep-learning
 ---
 
+# [Standalone DL] #5 Lab - Regression with Pytorch
 ## Data Generation
 
 이번에는 x 2차원, y 1차원으로 가보자. 다음 함수를 따르는 x와 y를 생각해보자 
@@ -285,3 +286,4 @@ for i in range(epoch):
 <img width="882" height="333" alt="Image" src="https://github.com/user-attachments/assets/30ebc09c-a195-4f84-909c-864f0a85b216" />
 
 - loss를 저장하고 출력해서 그래프를 그려보는 행위는 매우 중요함 ! (학습 진행 상황을 계속 파악하는 것이 중요함)
+

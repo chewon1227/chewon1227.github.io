@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Pytorch Regression"
+title: "03 Pytorch Regression"
 permalink: /dl/sa/standalone-03/
 subtitle: ML Basic 
 use_math : true

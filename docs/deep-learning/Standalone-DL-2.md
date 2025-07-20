@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Linear Regression and Lab"
+title: "02 Linear Regression and Lab"
 permalink: /dl/sa/standalone-02/
 subtitle: ML Basic 
 use_math : true

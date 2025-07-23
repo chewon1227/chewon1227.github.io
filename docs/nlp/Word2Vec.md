@@ -1,10 +1,9 @@
 ---
 layout: default
-title: "Word2Vec"
+title: "02 Word2Vec"
 subtitle: 벡터 공간에서 의미적으로 유사한 단어들이 가깝게 위치하도록 학습하는 Word2Vec
 permalink: /nlp/word2vec/
 use_math : true
-nav_order: 2
 parent: nlp
 ---
 

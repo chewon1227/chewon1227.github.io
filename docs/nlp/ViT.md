@@ -1,10 +1,9 @@
 ---
 layout: default
-title: "ViT"
+title: "09 ViT"
 permalink: /nlp/ViT/
 subtitle: Transformer in Image Recognition 
 use_math : true
-nav_order : 9
 parent: nlp
 ---
 

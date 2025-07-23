@@ -1,10 +1,9 @@
 ---
 layout: default
-title: "Seq2Seq"
+title: "04 Seq2Seq"
 permalink: /nlp/seq2seq/
 subtitle: 서로 다른 길이의 입력, 출력을 처리하는 Seq2Seq
 use_math : true
-nav_order: 4
 parent: nlp
 ---
 

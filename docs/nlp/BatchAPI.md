@@ -4,7 +4,6 @@ title: "Batch API"
 permalink: /nlp/batchapi/
 subtitle: effective way for generating lang-data 
 use_math: true
-nav_order: 8
 parent: nlp
 ---
 

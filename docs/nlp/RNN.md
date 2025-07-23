@@ -1,10 +1,9 @@
 ---
 layout: default
-title: "RNN"
+title: "01 RNN"
 subtitle: 이전 출력을 현재 입력으로 사용하는 순환 구조, RNN 
 permalink: /nlp/rnn/
 use_math : true
-nav_order: 1
 parent: nlp
 ---
 

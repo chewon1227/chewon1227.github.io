@@ -1,10 +1,9 @@
 ---
 layout: default
-title: "GPT-1"
+title: "07 GPT-1"
 permalink: /nlp/gpt1/
 subtitle: using unlabeled data 
 use_math : true
-nav_order : 7
 parent: nlp
 ---
 

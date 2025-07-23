@@ -3,12 +3,12 @@ layout: default
 title: "04 Binary / Multi-Label Classification and Lab"
 parent: deep-learning
 permalink: /dl/sa/standalone-04/
-subtitle: ML Basic 
+subtitle: Multi-label 
 use_math : true
 parent: deep-learning
 ---
 
-# [Standalone DL] #6 Lecture - Binary / Multi-Label Classification
+# [Standalone DL] #6-7 - Binary / Multi-Label Classification
 
 ## Binary Classification
 
@@ -115,7 +115,8 @@ cross-entropy 개념을 가져온다 ! 실제와 예측이 얼마나 다른가�
 
 `pred_y` (softmax를 통과한 값들) 과 `true_y` (실제 맞으면 1, 아니면 0) 을 비교한다 . 
 
-## Pytorch Classification
+
+
 
 ### classification
 

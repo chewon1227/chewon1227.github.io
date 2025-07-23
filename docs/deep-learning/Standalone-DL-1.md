@@ -7,7 +7,7 @@ use_math : true
 parent: deep-learning
 ---
 
-# [Standalone DL] #2 lecture - ML Basic
+# [Standalone DL] #2 - ML Basic
 
 ## Definition
 

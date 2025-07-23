@@ -2,12 +2,12 @@
 layout: default
 title: "02 Linear Regression and Lab"
 permalink: /dl/sa/standalone-02/
-subtitle: ML Basic 
+subtitle: Linear Regression 
 use_math : true
 parent: deep-learning
 ---
 
-# [Standalone DL] #3 lecture - Linear Regression
+# [Standalone DL] #3-4 - Linear Regression and Practice 
 
 ## Concept
 
@@ -97,8 +97,7 @@ $$
 
 <br /><br />
 
-# [Standalone DL] #4 Lab - Linear Regression Practice
-## Basic
+## Code Basic
 
 x, y를 넣고, matplotlib를 통해 그림을 그린다. 
 

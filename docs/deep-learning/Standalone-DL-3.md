@@ -2,12 +2,12 @@
 layout: default
 title: "03 Pytorch Regression"
 permalink: /dl/sa/standalone-03/
-subtitle: ML Basic 
+subtitle: Pytorch Regression 
 use_math : true
 parent: deep-learning
 ---
 
-# [Standalone DL] #5 Lab - Regression with Pytorch
+# [Standalone DL] #5 - Regression with Pytorch
 ## Data Generation
 
 이번에는 x 2차원, y 1차원으로 가보자. 다음 함수를 따르는 x와 y를 생각해보자 

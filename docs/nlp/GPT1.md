@@ -1,11 +1,14 @@
 ---
 layout: default
-title: "[GPT-1] Improving Language Understanding by Generative Pre-Training(2018)"
+title: "GPT-1"
 permalink: /nlp/gpt1/
 subtitle: using unlabeled data 
 use_math : true
+nav_order : 7
 parent: nlp
 ---
+
+# [GPT-1] Improving Language Understanding by Generative Pre-Training(2018)
 
 <br />
 

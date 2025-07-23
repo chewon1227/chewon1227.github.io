@@ -1,13 +1,14 @@
 ---
 layout: default
-title: "[ViT] An Image is Worth 16x16 Words : Transformers for Image Recognition at Scale (2021)"
+title: "ViT"
 permalink: /nlp/ViT/
 subtitle: Transformer in Image Recognition 
 use_math : true
+nav_order : 9
 parent: nlp
 ---
 
-
+# [ViT] An Image is Worth 16x16 Words : Transformers for Image Recognition at Scale (2021)
 
 https://arxiv.org/abs/2010.11929
 

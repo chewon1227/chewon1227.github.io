@@ -1,12 +1,14 @@
 ---
 layout: default
-title: "일반 API와 Batch API 사용하기" 
+title: "Batch API" 
 permalink: /nlp/batchapi/
-subtitle: 언제 어떤 상황에서 무슨 방법을 쓰는 것이 효율적일까? 
-use_math : true
+subtitle: effective way for generating lang-data 
+use_math: true
+nav_order: 8
 parent: nlp
 ---
 
+# Batch API와 일반 API 이용하기 
 
 최근 연구실에서의 작은 성과와 관련해서 정보 아카이빙을 위한 글을 남기려 한다. GPT API를 호출하여 raw data에 prompt를 적용하여 응답을 받아낸 후 정리하는 것이다.
 

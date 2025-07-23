@@ -1,13 +1,14 @@
 ---
 layout: default
-title: "[LSTM] Long Short Term Memory Recurrent Neural Network Architectures for Large Scale Acoustic Modeling (2014)"
+title: "LSTM"
 subtitle: cell state, gate 구조를 통해 장기 의존성을 학습하는 LSTM
 permalink: /nlp/lstm/
 use_math : true
+nav_order: 3
 parent: nlp
 ---
 
-
+# [LSTM] Long Short Term Memory Recurrent Neural Network Architectures for Large Scale Acoustic Modeling (2014) 
 
 ## Intro
 

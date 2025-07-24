@@ -1,12 +1,15 @@
 ---
 layout: post
-title: "Colab으로 프롬프팅(Prompting)하기"
+title: "Prompting Basic"
 permalink: /build/colab-prompting/
 subtitle: Colab, HuggingFace를 이용해서 llama base prompting을 해보자 
 parent: model-build
 ---
 
+# Colab으로 Prompting하기
+Colab, HuggingFace를 이용해서 llama base prompting을 해보자 
 
+--- 
 
 ## 1. 기본 작업
 

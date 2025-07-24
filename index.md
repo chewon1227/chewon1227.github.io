@@ -1,6 +1,7 @@
 ---
 title: Home
 layout: home
+nav_order: 1 
 ---
 
 # Rachel Docs
@@ -9,15 +10,23 @@ chasing questions
 
 ---
 
-## Focusing on 
-Psychology, Statistics, and Artificial Intelligence 
-Especially, AI for human - human with AI 
+## Studying  
+#### Psychology
+#### Statistics
+#### Artificial Intelligence 
 
-<br />
+---
 
-## Studying about 
+## Focusing 
 #### Data Analysis 
 #### Deep Learning 
 #### Model Building 
 #### Natural Language Processing 
 
+---
+
+## Interests 
+#### AI for human, Human with AI 
+#### LLM and humanity
+#### Brain-inspired AI 
+#### Clinical Application

@@ -2,9 +2,12 @@
 layout: default
 title: "서울시 버스 노선 정류장 승하차 분석 - 01"
 permalink: /eda/bus-eda-01/
-subtitle: 공공데이터 포털에 있는 서울시 버스노선별 정류장별 승하차 인원 정보 데이터를 이용해서 EDA하기 위한 기초 작업을 해보자.  
 parent: data-analyze
 ---
+
+# 서울시 버스 노선 정류장 승하차 분석 
+
+공공데이터 포털에 있는 서울시 버스노선별 정류장별 승하차 인원 정보 데이터를 이용해서 EDA하기 위한 기초 작업을 해보자.  
 
 
 [서울시 버스노선별 정류장별 승하차 인원 정보](https://data.seoul.go.kr/dataList/OA-12912/S/1/datasetView.do)

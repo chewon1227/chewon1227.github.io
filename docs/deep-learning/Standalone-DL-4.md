@@ -5,10 +5,9 @@ parent: deep-learning
 permalink: /dl/sa/standalone-04/
 subtitle: Multi-label 
 use_math : true
-parent: deep-learning
 ---
 
-# [Standalone DL] #6-7 - Binary / Multi-Label Classification
+# [Standalone DL] #6-7 - 04 Binary / Multi-Label Classification
 
 ## Binary Classification
 

@@ -7,7 +7,7 @@ use_math : true
 parent: deep-learning
 ---
 
-# [Standalone DL] #3-4 - Linear Regression and Practice 
+# [Standalone DL] #3-4 - 02 Linear Regression and Practice 
 
 ## Concept
 

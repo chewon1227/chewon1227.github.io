@@ -7,7 +7,7 @@ use_math : true
 parent: deep-learning
 ---
 
-# [Standalone DL] #5 - Regression with Pytorch
+# [Standalone DL] #5 - 03 Regression with Pytorch
 ## Data Generation
 
 이번에는 x 2차원, y 1차원으로 가보자. 다음 함수를 따르는 x와 y를 생각해보자 

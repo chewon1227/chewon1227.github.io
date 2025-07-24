@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "05 DL and MLP Basic "
+title: "06 DL and MLP Basic "
 parent: deep-learning
 permalink: /dl/sa/standalone-05/
 subtitle: Dl and MLP 

@@ -5,27 +5,19 @@ layout: home
 
 # Rachel Docs
 
-chasing questions - psychology and ai
+chasing questions 
 
 ---
 
-## 최신 포스트
+## Focusing on 
+Psychology, Statistics, and Artificial Intelligence 
+Especially, AI for human - human with AI 
 
-{% assign recent_posts = site.posts | sort: "date" | reverse | slice: 0, 5 %}
+<br />
 
-{% for post in recent_posts %}
-### [{{ post.title }}]({{ post.url }})
-**{{ post.date | date: "%Y-%m-%d" }}** | 카테고리: {{ post.categories | join: ", " }}
+## Studying about 
+#### Data Analysis 
+#### Deep Learning 
+#### Model Building 
+#### Natural Language Processing 
 
-{% if post.subtitle %}
-*{{ post.subtitle }}*
-{% endif %}
-
-{% if post.excerpt %}
-{{ post.excerpt | strip_html | truncatewords: 30 }}
-{% endif %}
-
----
-{% endfor %}
-
-[모든 포스트 보기 →]({{ site.baseurl }}/categories.html)

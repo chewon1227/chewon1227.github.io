@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "07 Overfitting and Hyperparameter "
+title: "08 Overfitting and Hyperparameter "
 parent: deep-learning
 permalink: /dl/sa/standalone-08/
 subtitle: Dl and MLP 

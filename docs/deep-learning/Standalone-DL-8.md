@@ -7,7 +7,7 @@ subtitle: Dl and MLP
 use_math : true
 ---
 
-# [Standalone DLç] #13 Lecture - 08 Overfitting, Regularization 
+# [Standalone DLç] 08 Lecture - #13 Overfitting, Regularization 
 
 ## Prob  1: Overfitting
 
@@ -123,7 +123,7 @@ p의 확률로 각각의 노드를 꺼버리는 것
 
 ---
 
-# [Standalone DL] #14 Lecture - Hyperparameter Tuning 
+# [Standalone DL] 08 Lecture - #14 Hyperparameter Tuning 
 ## Option for Tuning
 
 ### Model Related

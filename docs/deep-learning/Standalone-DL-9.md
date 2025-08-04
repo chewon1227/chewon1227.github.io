@@ -7,7 +7,7 @@ subtitle: Dl and MLP
 use_math : true
 ---
 
-# [Standalone DLç] #15 Lab - 09 - How to Write Well-Organized DL Code from Scratch 
+# [Standalone DLç] 09 Lab - #15 How to Write Well-Organized DL Code from Scratch 
 
 ## Data Preparation
 

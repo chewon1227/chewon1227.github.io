@@ -7,7 +7,7 @@ subtitle: Multi-label
 use_math : true
 ---
 
-# [Standalone DL] #6-7 - 04 Binary / Multi-Label Classification
+# [Standalone DL] 04 - #6 Binary / Multi-Label Classification
 
 ## Binary Classification
 

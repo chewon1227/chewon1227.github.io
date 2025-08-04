@@ -7,7 +7,7 @@ subtitle: Dl and MLP
 use_math : true
 ---
 
-# [Standalone DLç] #12 Lab - GPU with Pytorch
+# [Standalone DLç] 07 Lab - #12 GPU with Pytorch
 
 ## Why GPU is fast?
 

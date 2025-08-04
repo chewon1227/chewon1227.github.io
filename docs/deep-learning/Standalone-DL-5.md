@@ -5,7 +5,7 @@ parent: deep-learning
 permalink: /dl/sa/standalone-05/
 use_math : true
 ---
-# [Standalone DL] #8-9 - 05 History of DL / MLP Basic 
+# [Standalone DL] 05 - #8-9 History of DL / MLP Basic 
 
 ## Modeling Neuron
 

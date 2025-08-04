@@ -6,7 +6,7 @@ permalink: /dl/sa/standalone-10/
 use_math : true
 ---
 
-# [Standalone DL] #17 Lab - 10 - Advanced Optimizer than SGD 
+# [Standalone DL] 10 Lecture - #17 Advanced Optimizer than SGD 
 
 ## Problem
 

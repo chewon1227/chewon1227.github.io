@@ -7,7 +7,7 @@ subtitle: Dl and MLP
 use_math : true
 ---
 
-# [Standalone DL] #11 Lecture - 06 Parameterize 
+# [Standalone DL] 06 Lecture - #11 Parameterize 
 
 ## Parameterize
 

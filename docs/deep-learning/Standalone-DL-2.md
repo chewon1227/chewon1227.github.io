@@ -7,7 +7,7 @@ use_math : true
 parent: deep-learning
 ---
 
-# [Standalone DL] #3-4 - 02 Linear Regression and Practice 
+# [Standalone DL] 02 - #3 Linear Regression and Practice 
 
 ## Concept
 
@@ -37,9 +37,9 @@ $$
 <br />
 <br />
 
-# Minimizing Cost
+## Minimizing Cost
 
-## Simplified hypothesis
+### Simplified hypothesis
 
 <img width="368" height="269" alt="Image" src="https://github.com/user-attachments/assets/ef73966d-161c-4bda-ad4c-9e171e3ba747" />
 - x - y로 매칭되는 데이터 예시에 대해, 직접 계산해보면 다음과 같이 값이 얻어지게 된다
@@ -48,9 +48,9 @@ $$
 
 <br />
 
-## Gradient Descent Algorithm
+### Gradient Descent Algorithm
 
-### Method 
+#### Method 
 - start with initial guesses (0 or any value)
 - parameter 바꿀 때마다 gradient 선정 (cost를 가장 줄일 수 있는 것으로) 하는 작업 반복
 - local minimum에 도달할때까지 . . . (근데 이걸 명확하게 알 수 있나?) 
@@ -58,7 +58,7 @@ $$
 
 <br />
 
-### Feature 
+#### Feature 
 
 $$
 W := W - \alpha \frac{1}{m} \sum_{i=1}^{m} \left( W x^{(i)} - y^{(i)} \right) x^{(i)}
@@ -71,9 +71,11 @@ w의 시작점에 따라 종착점이 달라질 수 있음
 <br />
 <br />
 
-# 3 variables
+# [Standalone DL] 02 - #4 Linear Regression Practice 
 
-## Concepts
+## 3 variables
+
+### Concepts
 
 regression using three inputs ($ x_1, x_2, x_3$ )
 
@@ -87,7 +89,7 @@ $$
 
 <br />
 
-## Hypothesis Using Matrix
+### Hypothesis Using Matrix
 <img width="420" height="171" alt="Image" src="https://github.com/user-attachments/assets/e450a800-0dcf-456e-bb21-491f8f59f6bc" />
 - 예측해야 할 것이 1개인 경우 
 

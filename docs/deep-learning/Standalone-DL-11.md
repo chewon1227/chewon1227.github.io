@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "11 Advanced Optimizer"
+title: "11 Visualization of Experiments"
 parent: deep-learning
 permalink: /dl/sa/standalone-11/
 use_math : true
